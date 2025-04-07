@@ -1,0 +1,33 @@
+@keyframes morphShape {
+    0% {
+        border-bottom-left-radius: 54.4141% 45.6453%;
+        border-bottom-right-radius: 45.5859% 44.2793%;
+        border-top-left-radius: 57.1236% 54.3547%;
+        border-top-right-radius: 42.8764% 55.7207%;
+      transform: translateX(0px);
+    }
+    50% {
+
+        border-bottom-left-radius: 46% 47.4924%;
+        border-bottom-right-radius: 54% 47.0151%;
+        border-top-left-radius: 53.4457% 52.5076%;
+        border-top-right-radius: 46.5543% 52.9849%;
+      transform: translateX(10px);
+    }
+    100% {
+     
+
+  border-bottom-left-radius: 58.0866% 40.6428%;
+  border-bottom-right-radius: 41.9134% 36.3164%;
+  border-top-left-radius: 52.6378% 59.3572%;
+  border-top-right-radius: 47.3622% 63.6836%;
+      transform: translateX(0px);
+    }
+  }
+  
+  .animate-morph {
+    animation: morphShape 5s ease-in-out infinite;
+  }
+
+
+
